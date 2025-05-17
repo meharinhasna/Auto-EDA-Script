@@ -12,7 +12,7 @@ encode
 
 Using this script will save you time and make it easier to make decisions using data.
 
-Great features of the script
+# Great features of the script
 
 CSV/Excel  file input
 Dataset Information ( like :  dataset shape, type, size ,  columns , duplicated values)
@@ -28,7 +28,7 @@ Feature Engineering
 Encoding (Label / One-Hot)
 And finally, download the clean data set.
 
-How does it work? (Step by Step)
+# How does it work? (Step by Step)
 
 Give the path of the dataset (Dataset should be in  CSV/Excel file format) 
 The script will give you options – how to handle missing values ('fill' or 'drop')
@@ -40,19 +40,12 @@ And finally, it will ask you for the name of the dataset.
               
          📁 Input → ⚙️ Processing → 📑 analysis and Chart\Plot
 
-Why buy this script?
-
 Saves time – no need for manual analysis
 Data Cleaning – For Better Model Training
 Smart Analysis – Full report in one click
 Feature Engineering for Deep Analysis
 Quick Reports - Analyze in minutes without wasting hours
 Dive deep into data - makes it easy to understand complex relationships, trends and patterns
-
-Bonus
-Customizable for any business use
-Lightweight and fast - up and running in minutes
-No subscriptions - one-time purchase
       
         🧠 No coding skills required!
         Just answer the questions, and the script will do all the work.
