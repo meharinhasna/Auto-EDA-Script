@@ -1,0 +1,100 @@
+Auto EDA Script – Features Explained
+
+✅ Key Features of the Auto EDA Script
+
+1. Dataset Upload Support
+Supports both .csv and .xlsx file formats
+
+2. Summary of the dataset / Basic Info
+The source of the necessary information, including:
+
+Dataset First 5 Rows and Last 5 Rows
+Shape (rows × columns)
+Column names and data types
+Dataset size
+Number of duplicated rows
+Unique Values per Column
+Dataset Info Summary
+
+3. Column Separation
+Automatically separates categorical and numerical columns for targeted analysis.
+
+4. Missing Value Detection 
+Detects missing values
+Missing Values Percent (%)
+Visualizes them using bar plots and heatmaps
+If no missing values ​​are found in the dataset which shows "No missing values ​​are present in the dataset"
+
+5. Descriptive Statistics
+Displays numeric summaries including:
+
+Full Descriptive Statistics 
+Median, Mode
+Interquartile Range (IQR)
+Unique Value Count per Column
+
+6. clean the dataset
+Missing values filled Categorical: Mode, Numerical : Lets you choose to fill (with forward fill) or drop them
+Dropped duplicate rows
+
+7. Outlier Detection & Handling
+Detects outliers using IQR or Z-score
+Plots boxplots for each numeric column
+Asks if you want to remove outliers (yes\no)
+
+8. Categorical Column Analysis
+
+Automatically selects all Categorical columns 
+Frequency count of each unique category
+Visual analysis using multiple types of plots (Count Plot , bar plot , horizontal Bar plot)
+Relationship check with numeric columns using Swarm Plots
+
+ 9. Numerical Column Analysis
+Automatically selects all numeric columns (e.g., int64, float64)
+summary statistics (mean, median, std, min, max, etc.)
+Visual analysis using multiple types of plots (Histogram , Boxplot, KDE Plot (Kernel Density Estimate) ,  Dist Plot (KDE + Histogram) )
+
+10. Correlation Matrix
+Heatmap of correlation between numerical columns
+Helps understand linear relationships
+
+11. Feature Engineering (Optional)
+Create new features from existing ones if needed (manual input optional).
+
+1. Create a new feature from a Date Column :
+The following new columns are automatically created from columns that contain dates or times (Date/Datetime)
+column_year → year from date
+column_month → month from date
+column_day → day from date
+Example: If invoice_date exists, the script will create → invoice_date_year, invoice_date_month, invoice_date_day
+
+2. Create Length Feature from Text Column
+Create a new feature by extracting the character lengths of columns that contain string/text data (such as names, addresses, etc.):
+Example: customer_name_length
+
+3. Suggestions for Encoding
+The script automatically suggests the number of unique values ​​in each categorical column—
+
+10 or fewer unique values ​​→ One-Hot Encoding
+
+More than 10 unique values ​​→ Label Encoding
+
+
+12. Encoding 
+The script first identifies all categorical columns (object dtype).
+
+Encoding  Based on that:
+If the number of unique values is less than or equal to 10 (or the given threshold), it applies One-Hot Encoding.
+
+Otherwise, it applies Label Encoding.
+
+13. Clean Dataset Download
+After full processing, you can save a cleaned .csv  format
+Ready  dataset for machine learning or dashboard integration
+
+
+
+
+
+
+

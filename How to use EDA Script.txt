@@ -1,0 +1,35 @@
+How to use Auto EDA script ?
+This script is very easy to use - just follow these simple steps:
+
+1)  Prepare Your Dataset : Make sure your dataset is in CSV or  Excel format and is properly structured. And upload your data set to an "Auto EDA" file.
+
+2)  Run the Script : Open the script in your Python environment (like : PyCharm, VS Code)
+
+3) Required Libraries (Install Before Use)
+
+4) Input File Path : The script will ask you to enter the file path of your dataset. Example: Enter dataset path (e.g., titanic.csv): example_data.csv
+
+5) Handle Missing Values : You’ll be asked how you want to treat missing values: Type ffill (for filling with forward fill ) or drop (to remove rows).
+
+6) Feature Engineering (Optional) If you want to create new features or modify existing ones, just type yes or skip with no.
+
+7) Outlier Handling The script will detect outliers and ask: “Do you want to remove outliers?” → Type yes or no.
+
+8) Encoding Categorical Data :  If you want to  Encoding Categorical Data just type yes or skip with no.
+
+9)  View Report : The script will generate plots, charts, and summary tables to help you explore your dataset visually
+
+10) Download Clean Data
+After analysis, the cleaned dataset will be ready for download in .csv format  it will ask you for the name of the dataset.
+
+
+💡 Additional Usage Tips 
+
+Upload or open the “Auto EDA” file on PyCharm. Click on the Run EDA.py file and run this file .Select all the code and press the mouse right  button, and click  Run ‘Run EDA’ . Copy all text from the "requirements.txt" file and go to Terminal Options and paste all copied text. Save the data you want to analyze as an Auto EDA file. Add a Next, copy the file path of the dataset uploaded from the Auto EDA option. After copying, you will see the option to run. This is where you need to provide the dataset and file path for your analysis. You will provide the copied file path there. Next, if you want to fill or remove null values ​​in your dataset, you will provide it(fill or drop). If you want to do feature engineering, then give (yes or no). If you want to remove outliers, then give (yes or no). If you want to do data encoding, then give (yes or no) . Remember, if you enter any input, you have to press the Enter button. so you have to press the Enter button every time you enter.After this, the dataset will be analyzed. During the analysis, a chart or plot will be shown in the output. You can save the plot if you want, and then you have to cross the plot and the image. Remember, if the plot and the image are not crossed, the rest of the analysis will not show. So, save the plot after showing it, otherwise, cross it. After the data set is cleaned, you can save the cleaned data set with any name.
+
+🎁Final Outcome
+After completing the process:
+
+Your dataset will be cleaned.
+You'll have a full visual analysis report.
+A clean CSV file will be saved for further work.
