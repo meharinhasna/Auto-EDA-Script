@@ -1,0 +1,11 @@
+pip install pandas
+pip install numpy
+pip install matplotlib
+pip install seaborn
+pip install scipy
+pip install scikit-learn
+
+
+You can download all the libraries together if you want:
+
+pip install pandas numpy matplotlib seaborn plotly scikit-learn 
